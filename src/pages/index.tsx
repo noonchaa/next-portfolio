@@ -27,7 +27,7 @@ export default function Home() {
   })
 
   return (
-    <Layout title='Suyono' desc='Saya seorang front-end developer. Jika anda tertarik membuat website seperti ini bisa langsung anda beli disini, atau anda menginginkan website sesuai keinginan anda sendiri bisa langsung hubungi saya'>
+    <Layout title='Suyono' desc='Saya seorang front-end developer. Jika anda tertarik membuat website seperti ini bisa langsung anda beli disini, atau anda menginginkan website sesuai keinginan anda bisa langsung hubungi saya'>
       <Loading loading={loading} />
       <section className='container mx-auto relative'>
         <div className='absolute top-0 right-2 bg-slate-900 text-white rounded-b-xl p-2 font-mono shadow'>
