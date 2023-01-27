@@ -25,7 +25,7 @@ const Contact = ({ data }: props) => {
     const options = {
         renderNode: {
           [INLINES.HYPERLINK]: (node:any) => {
-            return <a href={node.data.uri} target='_blank'>{node.content[0].value}</a>;
+            return <a href={node.data.uri} target='_blank' rel="noreferrer">{node.content[0].value}</a>;
           }
         }
       }
