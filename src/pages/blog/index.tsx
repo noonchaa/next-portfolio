@@ -24,7 +24,7 @@ const Blog = ({ posts, blogHome, ads }: any) => {
     return (
         <Layout title={seoTitle} desc={seoDesc}>
             <div className="container mx-auto">
-                <a href={adsLinkTop} target='_blank'>
+                <a href={adsLinkTop} target='_blank' rel="noreferrer">
                     <img src={'https:' + adsImgTop.fields.file.url} alt={adsLinkTop} width='100%' height='auto' />
                 </a>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 mt-4 lg:mt-8 px-2 lg:px-0">
@@ -93,7 +93,7 @@ const Blog = ({ posts, blogHome, ads }: any) => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet dui at enim fermentum lacinia. Vivamus non tortor eget nibh ornare feugiat ut lobortis nisl. Mauris gravida tellus enim, eu</p>
                         <p className="absolute bottom-3 right-3 font-medium italic">Selengkapnya...</p>
                     </div>
-                    <a href={adsLinkMobile} target='_blank' className="lg:hidden">
+                    <a href={adsLinkMobile} target='_blank' rel="noreferrer" className="lg:hidden">
                         <img src={'https:' + adsImgMobile.fields.file.url} alt={adsLinkMobile} width='100%' height='auto' />
                     </a>
                 </div>
@@ -134,7 +134,7 @@ const Blog = ({ posts, blogHome, ads }: any) => {
                         Angular
                     </p>
                     <div className="flex justify-center items-start mt-6">
-                    <a href={adsLinkWeb} target='_blank'>
+                    <a href={adsLinkWeb} target='_blank' rel="noreferrer">
                         <img src={'https:' + adsImgWeb.fields.file.url} alt={adsLinkWeb} width='100%' height='auto' />
                     </a>
                     </div>
