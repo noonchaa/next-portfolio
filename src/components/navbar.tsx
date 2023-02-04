@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <>
-            <motion.nav className="bg-slate-100 fixed top-0 left-0 right-0 shadow sm:sticky" initial={{ scale: 0 }} whileInView={{ scale: 1 }} viewport={{ once: false }}>
+            <motion.nav className="bg-slate-100 fixed top-0 left-0 right-0 shadow z-10" initial={{ scale: 0 }} whileInView={{ scale: 1 }} viewport={{ once: false }}>
                 <div className="container mx-auto px-3 py-2 flex justify-between items-center">
                     <Link href='/' className="font-bold text-2xl text-slate-900">
                         Suyono
